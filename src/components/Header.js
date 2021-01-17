@@ -8,15 +8,19 @@ const ListLink = props => (
   </li>
 )
 
+const myName = "< Nick Rokosz />"
+
 const Header = () => (
-  <header tw="mb-6">
+  <header tw="mb-6 flex flex-col items-center justify-between md:flex-row">
     <Link to="/" tw="shadow-none bg-none">
-      <h3 tw="inline">Nick Rokosz</h3>
+      <h1 tw="inline text-3xl">{myName}</h1>
     </Link>
-    <ul tw="list-none float-right">
-      <ListLink to="/">Home</ListLink>
+    <ul tw="list-none float-right border-r border-gray-900 text-gray-900">
+      {/* <ListLink to="/">Home</ListLink> */}
       <ListLink to="/about/">About</ListLink>
       <ListLink to="/contact/">Contact</ListLink>
+
+      <hr />
     </ul>
   </header>
 )
