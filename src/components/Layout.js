@@ -4,7 +4,7 @@ import Header from "./Header"
 import { Helmet } from "react-helmet"
 
 const Layout = ({ children }) => (
-  <div tw="my-12 mx-auto px-4 max-w-screen-md">
+  <div tw="my-12 mx-auto px-4 max-w-screen-md h-screen">
     <Helmet>
       <meta charSet="utf-8" />
       <title>Nick Rokosz</title>
