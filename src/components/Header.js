@@ -15,12 +15,21 @@ const Header = () => (
     <Link to="/" tw="shadow-none bg-none">
       <h1 tw="inline text-3xl">{myName}</h1>
     </Link>
-    <ul tw="list-none float-right border-r border-gray-900 text-gray-900">
-      {/* <ListLink to="/">Home</ListLink> */}
-      <ListLink to="/about/">About</ListLink>
-      <ListLink to="/contact/">Contact</ListLink>
-
-      <hr />
+    <ul tw="list-none float-right text-gray-900 flex flex-row items-stretch justify-between">
+      <div tw="border-r border-gray-900">
+        <ListLink to="/about/">About</ListLink>
+        <ListLink to="/contact/">Contact</ListLink>
+      </div>
+      <div tw="px-4 flex justify-between">
+        <a href="https://github.com/nicholasrokosz">
+          <i class="fa fa-github-square" aria-hidden="true"></i>
+          {/* GitHub */}
+        </a>
+        <a href="#" tw="ml-4">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          {/* LinkedIn */}
+        </a>
+      </div>
     </ul>
   </header>
 )
