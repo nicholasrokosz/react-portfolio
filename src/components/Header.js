@@ -32,6 +32,9 @@ const Header = () => (
           <i className="fa fa-linkedin-square" aria-hidden="true"></i>
           {/* LinkedIn */}
         </a>
+        <div tw="pl-4">
+          <i className="fa fa-moon-o" aria-hidden="true"></i>
+        </div>
       </div>
     </ul>
   </header>
