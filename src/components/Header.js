@@ -21,12 +21,15 @@ const Header = () => (
         <ListLink to="/contact/">Contact</ListLink>
       </div>
       <div tw="px-4 flex justify-between">
-        <a href="https://github.com/nicholasrokosz">
-          <i class="fa fa-github-square" aria-hidden="true"></i>
+        <a href="https://github.com/nicholasrokosz" tw="bg-none">
+          <i className="fa fa-github-square" aria-hidden="true"></i>
           {/* GitHub */}
         </a>
-        <a href="#" tw="ml-4">
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        <a
+          href="https://www.linkedin.com/in/nick-rokosz-9085191ba/"
+          tw="ml-4 bg-none"
+        >
+          <i className="fa fa-linkedin-square" aria-hidden="true"></i>
           {/* LinkedIn */}
         </a>
       </div>
