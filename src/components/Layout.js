@@ -4,7 +4,7 @@ import Header from "./Header"
 import { Helmet } from "react-helmet"
 
 const Layout = ({ children }) => (
-  <body tw="my-12 mx-auto px-4 max-w-screen-md">
+  <div tw="my-12 mx-auto px-4 max-w-screen-md">
     <Helmet>
       <meta charSet="utf-8" />
       <title>Nick Rokosz</title>
@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
     <Header />
     <GlobalStyles />
     {children}
-  </body>
+  </div>
 )
 
 export default Layout
