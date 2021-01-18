@@ -37,18 +37,21 @@ const Header = () => {
           <ListLink to="/contact/">Contact</ListLink>
         </div>
         <div tw="w-20 flex justify-between md:ml-4">
-          <a href="https://github.com/nicholasrokosz" tw="bg-none">
+          <a
+            href="https://github.com/nicholasrokosz"
+            tw="bg-none transition transform hover:scale-125"
+          >
             <i className="fa fa-github-square" aria-hidden="true"></i>
             {/* GitHub */}
           </a>
           <a
             href="https://www.linkedin.com/in/nick-rokosz-9085191ba/"
-            tw="md:ml-4 bg-none"
+            tw="md:ml-4 bg-none transition transform hover:scale-125"
           >
             <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             {/* LinkedIn */}
           </a>
-          <button tw="md:pl-4">
+          <button tw="md:pl-4 transition transform hover:scale-125 active:outline-none focus:outline-none">
             <i className="fa fa-moon-o" aria-hidden="true"></i>
           </button>
         </div>
