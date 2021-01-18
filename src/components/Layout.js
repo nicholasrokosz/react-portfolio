@@ -1,6 +1,7 @@
 import React from "react"
 import { GlobalStyles } from "twin.macro"
 import Header from "./Header"
+import Footer from "./Footer"
 import { Helmet } from "react-helmet"
 
 const Layout = ({ children }) => (
@@ -8,7 +9,6 @@ const Layout = ({ children }) => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Nick Rokosz</title>
-      {/* might be slow, test before deployment */}
       <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
@@ -19,6 +19,7 @@ const Layout = ({ children }) => (
     <Header />
     <GlobalStyles />
     {children}
+    <Footer />
   </div>
 )
 
