@@ -23,7 +23,7 @@ const Header = () => {
   // )
 
   return (
-    <header tw="mb-6 flex flex-col items-center justify-between md:flex-row max-w-screen-md mx-auto">
+    <header tw="mb-6 flex flex-col items-center justify-around lg:justify-between md:flex-row max-w-screen-md mx-auto">
       <Link to="/" tw="shadow-none bg-none">
         <h1 tw="inline text-3xl">{myName}</h1>
       </Link>
