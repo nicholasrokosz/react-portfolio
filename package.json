@@ -19,6 +19,7 @@
     "gatsby": "^2.26.1",
     "gatsby-plugin-emotion": "^5.2.0",
     "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-typography": "^2.10.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -31,8 +32,6 @@
     "typography-theme-lincoln": "^0.16.19"
   },
   "devDependencies": {
-    "@iconify-icons/vscode-icons": "^1.1.1",
-    "@iconify/react": "^1.1.3",
     "prettier": "2.2.1"
   },
   "repository": {
