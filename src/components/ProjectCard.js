@@ -6,7 +6,7 @@ const ProjectCard = ({ src, title, desc }) => (
     <img
       src={src}
       alt={title + " screengrab"}
-      tw="rounded-none w-auto h-64 rounded-t-xl"
+      tw="rounded-none w-auto h-64 rounded-t-xl hover:opacity-75 transition duration-200 ease-in-out"
     />
     <div tw="ml-6 pb-6">
       <h4 tw="text-xl text-gray-900">{title}</h4>
