@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: "class",
   theme: {
     maxWidth: {
       "1/4": "25%",
