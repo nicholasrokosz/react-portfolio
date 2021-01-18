@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react"
-import { useMediaPredicate } from "react-media-hook"
+import React from "react"
+// import { useMediaPredicate } from "react-media-hook"
 import { Link } from "gatsby"
 import "twin.macro"
 
@@ -15,9 +15,9 @@ const close = " />"
 // const changeTheme = () => {}
 
 const Header = () => {
-  const [theme, setTheme] = useState(
-    useMediaPredicate("(prefers-color-scheme: dark)") ? "dark" : "light"
-  )
+  // const [theme, setTheme] = useState(
+  //   useMediaPredicate("(prefers-color-scheme: dark)") ? "dark" : "light"
+  // )
 
   // const [icon, setIcon] = useState(
   //   useMediaPredicate("(prefers-color-scheme: dark)") ? "dark" : "light"
@@ -40,6 +40,7 @@ const Header = () => {
           <a
             href="https://github.com/nicholasrokosz"
             target="_blank"
+            rel="noreferrer"
             tw="bg-none transition transform hover:scale-125 duration-300 ease-in-out"
           >
             <i className="fa fa-github-square" aria-hidden="true"></i>
@@ -48,6 +49,7 @@ const Header = () => {
           <a
             href="https://www.linkedin.com/in/nick-rokosz-9085191ba/"
             target="_blank"
+            rel="noreferrer"
             tw="md:ml-4 bg-none transition transform hover:scale-125 duration-300 ease-in-out"
           >
             <i className="fa fa-linkedin-square" aria-hidden="true"></i>
