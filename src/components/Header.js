@@ -24,7 +24,7 @@ const Header = () => {
   // )
 
   return (
-    <header tw="mb-6 flex flex-col items-center justify-around lg:justify-between md:flex-row max-w-screen-md mx-auto xl:max-w-screen-lg">
+    <header tw="mb-6 flex flex-col items-center justify-around lg:justify-between md:flex-row max-w-screen-md mx-auto 2xl:max-w-screen-lg">
       <Link to="/" tw="shadow-none bg-none">
         <h1 tw="inline text-xl">
           <span tw="animate-pulse">{open}</span>Nick Rokosz
