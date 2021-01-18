@@ -9,7 +9,8 @@ const ListLink = props => (
   </li>
 )
 
-const myName = "< Nick Rokosz />"
+const open = "< "
+const close = " />"
 
 // const changeTheme = () => {}
 
@@ -25,7 +26,10 @@ const Header = () => {
   return (
     <header tw="mb-6 flex flex-col items-center justify-around lg:justify-between md:flex-row max-w-screen-md mx-auto">
       <Link to="/" tw="shadow-none bg-none">
-        <h1 tw="inline text-3xl">{myName}</h1>
+        <h1 tw="inline text-3xl">
+          <span tw="animate-pulse">{open}</span>Nick Rokosz
+          <span tw="animate-pulse">{close}</span>
+        </h1>
       </Link>
       <ul tw="list-none float-right text-gray-900 flex flex-row items-stretch justify-between">
         <div tw="md:border-r md:border-gray-900">
