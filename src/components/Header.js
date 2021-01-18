@@ -39,6 +39,7 @@ const Header = () => {
         <div tw="w-20 flex justify-between md:ml-4">
           <a
             href="https://github.com/nicholasrokosz"
+            target="_blank"
             tw="bg-none transition transform hover:scale-125 duration-300 ease-in-out"
           >
             <i className="fa fa-github-square" aria-hidden="true"></i>
@@ -46,6 +47,7 @@ const Header = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/nick-rokosz-9085191ba/"
+            target="_blank"
             tw="md:ml-4 bg-none transition transform hover:scale-125 duration-300 ease-in-out"
           >
             <i className="fa fa-linkedin-square" aria-hidden="true"></i>

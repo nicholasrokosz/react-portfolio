@@ -20,6 +20,7 @@ const Footer = () => (
       </p>
       <a
         href="https://www.gatsbyjs.com/"
+        target="_blank"
         tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
       >
         <InlineIcon icon={fileTypeGatsby} height="1.5em" />
@@ -27,6 +28,7 @@ const Footer = () => (
       <p tw="mx-1.5">+</p>
       <a
         href="https://tailwindcss.com/"
+        target="_blank"
         tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
       >
         <InlineIcon icon={fileTypeTailwind} height="1.5em" />
