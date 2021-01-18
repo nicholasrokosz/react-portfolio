@@ -6,7 +6,7 @@ import "twin.macro"
 export default function Home() {
   return (
     <Layout>
-      <div tw="my-6 mx-auto text-center sm:text-4xl xl:text-6xl xl:text-left xl:w-3/4 xl:mt-16 xl:mb-8">
+      <div tw="my-6 mx-auto text-center sm:text-4xl xl:text-6xl lg:text-left lg:w-3/4 xl:mt-16 xl:mb-8">
         <h2 tw="leading-normal">
           Hi, I'm Nick{" "}
           <span role="img" aria-label="waving hand">
