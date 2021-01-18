@@ -13,7 +13,7 @@ const Footer = () => (
   //   </p>
   // </footer>
   <footer>
-    <div tw="flex justify-center align-middle h-12 mt-12">
+    <div tw="flex justify-center align-middle h-12 mt-12 text-sm">
       <p tw="mx-1.5">
         © 2021 | Built by{" "}
         <a href="https://github.com/nicholasrokosz">Nick Rokosz</a> with{" "}
@@ -23,7 +23,7 @@ const Footer = () => (
         target="_blank"
         tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
       >
-        <InlineIcon icon={fileTypeGatsby} height="1.5em" />
+        <InlineIcon icon={fileTypeGatsby} height="1.25em" />
       </a>
       <p tw="mx-1.5">+</p>
       <a
@@ -31,7 +31,7 @@ const Footer = () => (
         target="_blank"
         tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
       >
-        <InlineIcon icon={fileTypeTailwind} height="1.5em" />
+        <InlineIcon icon={fileTypeTailwind} height="1.25em" />
       </a>
     </div>
   </footer>
