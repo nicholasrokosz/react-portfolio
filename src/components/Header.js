@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { useMediaPredicate } from "react-media-hook"
 import { Link } from "gatsby"
 import "twin.macro"
 
@@ -13,7 +14,13 @@ const myName = "< Nick Rokosz />"
 // const changeTheme = () => {}
 
 const Header = () => {
-  const [theme, setTheme] = useState()
+  const [theme, setTheme] = useState(
+    useMediaPredicate("(prefers-color-scheme: dark)") ? "dark" : "light"
+  )
+
+  // const [icon, setIcon] = useState(
+  //   useMediaPredicate("(prefers-color-scheme: dark)") ? "dark" : "light"
+  // )
 
   return (
     <header tw="mb-6 flex flex-col items-center justify-between md:flex-row max-w-screen-md mx-auto">
