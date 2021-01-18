@@ -18,11 +18,17 @@ const Footer = () => (
         © 2021 | Built by{" "}
         <a href="https://github.com/nicholasrokosz">Nick Rokosz</a> with{" "}
       </p>
-      <a href="https://www.gatsbyjs.com/" tw="bg-none">
+      <a
+        href="https://www.gatsbyjs.com/"
+        tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
+      >
         <InlineIcon icon={fileTypeGatsby} height="1.5em" />
       </a>
       <p tw="mx-1.5">+</p>
-      <a href="https://tailwindcss.com/" tw="bg-none">
+      <a
+        href="https://tailwindcss.com/"
+        tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
+      >
         <InlineIcon icon={fileTypeTailwind} height="1.5em" />
       </a>
     </div>
