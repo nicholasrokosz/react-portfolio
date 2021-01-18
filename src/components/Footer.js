@@ -21,6 +21,7 @@ const Footer = () => (
       <a
         href="https://www.gatsbyjs.com/"
         target="_blank"
+        rel="noreferrer"
         tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
       >
         <InlineIcon icon={fileTypeGatsby} height="1.25em" />
@@ -29,6 +30,7 @@ const Footer = () => (
       <a
         href="https://tailwindcss.com/"
         target="_blank"
+        rel="noreferrer"
         tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
       >
         <InlineIcon icon={fileTypeTailwind} height="1.25em" />
