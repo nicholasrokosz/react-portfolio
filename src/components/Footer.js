@@ -15,7 +15,7 @@ const Footer = () => (
   <footer>
     <div tw="flex justify-center align-middle h-12 mt-12 text-sm">
       <p tw="mx-1.5">
-        © 2021 | Built by{" "}
+        © 2021 | Made by{" "}
         <a href="https://github.com/nicholasrokosz">Nick Rokosz</a> with{" "}
       </p>
       <a
