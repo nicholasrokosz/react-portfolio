@@ -24,7 +24,7 @@ const Header = () => {
   // )
 
   return (
-    <header tw="mb-6 flex flex-col items-center justify-around lg:justify-between md:flex-row max-w-screen-md mx-auto 2xl:max-w-screen-lg">
+    <header tw="flex flex-col items-center justify-around lg:justify-between md:flex-row max-w-screen-md mx-auto 2xl:max-w-screen-lg">
       <Link to="/" tw="shadow-none bg-none">
         <h1 tw="inline text-xl">
           <span tw="animate-pulse">{open}</span>Nick Rokosz
@@ -36,7 +36,8 @@ const Header = () => {
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/contact/">Contact</ListLink>
         </div>
-        <div tw="w-20 flex justify-between md:ml-4">
+        {/* switch back to justify-between for dark switch */}
+        <div tw="w-20 flex justify-start md:ml-4">
           <a
             href="https://github.com/nicholasrokosz"
             target="_blank"
@@ -55,9 +56,9 @@ const Header = () => {
             <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             {/* LinkedIn */}
           </a>
-          <button tw="md:pl-4 transition transform hover:scale-125 duration-300 ease-in-out active:outline-none focus:outline-none">
+          {/* <button tw="md:pl-4 transition transform hover:scale-125 duration-300 ease-in-out active:outline-none focus:outline-none">
             <i className="fa fa-moon-o" aria-hidden="true"></i>
-          </button>
+          </button> */}
         </div>
       </ul>
     </header>
