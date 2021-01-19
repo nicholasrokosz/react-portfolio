@@ -37,7 +37,7 @@ const Header = () => {
           <ListLink to="/contact/">Contact</ListLink>
         </div>
         {/* switch back to justify-between for dark switch */}
-        <div tw="w-20 flex justify-start md:ml-4">
+        <div tw="w-20 flex justify-around md:justify-start md:ml-4">
           <a
             href="https://github.com/nicholasrokosz"
             target="_blank"
