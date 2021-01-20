@@ -15,8 +15,8 @@ export default function About() {
           📚 I love learning! I mostly read about computing, philosophy, and pop
           psychology
           <br></br>
-          ⚙️My favorite tools/technolgies are JavaScript, Typescript, React, and
-          Gatsby
+          ⚙️ My favorite tools/technolgies are JavaScript, Typescript, React,
+          and Gatsby
         </p>
       </main>
     </Layout>
