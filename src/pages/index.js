@@ -18,9 +18,9 @@ export default function Home() {
       </div>
       <div tw="grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-8 w-11/12 md:w-3/4 mx-auto">
         <ProjectCard
-          src="https://source.unsplash.com/random/400x200"
-          title="Example Project 1"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt. Non consectetur a erat nam at lectus. Dolor magna eget est lorem ipsum."
+          src="spotifizenator.png"
+          title="Spotifizenator9000"
+          desc="An easy-to-use webapp that helps users find new music based on an artist that they already like. User authentication through the Spotify Web API allows the generated playlists to be saved to a Spotify account for later listening."
         />
         <ProjectCard
           src="https://source.unsplash.com/random/400x200"
