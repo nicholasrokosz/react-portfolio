@@ -12,30 +12,28 @@ const Footer = () => (
   //     and Tailwind CSS
   //   </p>
   // </footer>
-  <footer>
-    <div tw="flex justify-center align-middle h-12 mt-12 text-sm py-4">
-      <p tw="mx-1.5">
-        © 2021 | Made by{" "}
-        <a href="https://github.com/nicholasrokosz">Nick Rokosz</a> with{" "}
-      </p>
-      <a
-        href="https://www.gatsbyjs.com/"
-        target="_blank"
-        rel="noreferrer"
-        tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
-      >
-        <InlineIcon icon={fileTypeGatsby} height="1.25em" />
-      </a>
-      <p tw="mx-1.5">+</p>
-      <a
-        href="https://tailwindcss.com/"
-        target="_blank"
-        rel="noreferrer"
-        tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
-      >
-        <InlineIcon icon={fileTypeTailwind} height="1.25em" />
-      </a>
-    </div>
+  <footer tw="flex justify-center align-middle h-12 mt-12 text-sm py-4">
+    <p tw="mx-1.5">
+      © 2021 | Made by{" "}
+      <a href="https://github.com/nicholasrokosz">Nick Rokosz</a> with{" "}
+    </p>
+    <a
+      href="https://www.gatsbyjs.com/"
+      target="_blank"
+      rel="noreferrer"
+      tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
+    >
+      <InlineIcon icon={fileTypeGatsby} height="1.25em" />
+    </a>
+    <p tw="mx-1.5">+</p>
+    <a
+      href="https://tailwindcss.com/"
+      target="_blank"
+      rel="noreferrer"
+      tw="bg-none transition duration-300 transform hover:scale-125 ease-in-out"
+    >
+      <InlineIcon icon={fileTypeTailwind} height="1.25em" />
+    </a>
   </footer>
 )
 
