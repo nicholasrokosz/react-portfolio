@@ -23,7 +23,7 @@ export default function Home() {
           desc="An easy-to-use webapp that helps users find new music based on an artist that they already like. User authentication through the Spotify Web API allows the generated playlists to be saved to a Spotify account for later listening."
         />
         <ProjectCard
-          src="https://source.unsplash.com/random/400x200"
+          src="employee-dir.png"
           title="Example Project 2"
           desc="Lorem ipsum dolornt ut labore s. Dolor magna eget est lorem ipsum."
         />
