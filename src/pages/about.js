@@ -27,8 +27,8 @@ export default function About() {
           <span role="img" aria-label="gear">
             ⚙️
           </span>
-          ⚙ My favorite tools/technolgies are JavaScript, Typescript, React, and
-          Gatsby
+          ⚙ My favorite tools/technologies are JavaScript, Typescript, React,
+          and Gatsby
         </p>
       </main>
     </Layout>
