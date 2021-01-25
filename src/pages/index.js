@@ -20,7 +20,7 @@ export default function Home() {
         <ProjectCard
           src="spotifizenator.png"
           title="Spotifizenator9000"
-          desc="An easy-to-use webapp that helps users find new music based on an artist that they already like. User authentication through the Spotify Web API allows the generated playlists to be saved to a Spotify account for later listening."
+          desc="An easy-to-use web app that helps users find new music based on an artist that they already like. User authentication through the Spotify Web API allows the generated playlists to be saved to a Spotify account for later listening."
         />
         <ProjectCard
           src="employee-dir.png"
@@ -28,9 +28,9 @@ export default function Home() {
           desc="A React SPA that lets users view employee information. The name column can be sorted be alphabetical or reverse alphabetical order. The employee info is generated using randomuser.me."
         />
         <ProjectCard
-          src="https://source.unsplash.com/random/400x200"
-          title="Example Project 3"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt. Non consectetur a erat nam at lectus. Dolor magna eget est lorem ipsum."
+          src="fitness-tracker.png"
+          title="Fitness Tracker"
+          desc="A web app to store workout data and see weekly stats visualized. This project uses a MongoDB database and Chart.js for visualization."
         />
         <ProjectCard
           src="https://source.unsplash.com/random/400x200"
