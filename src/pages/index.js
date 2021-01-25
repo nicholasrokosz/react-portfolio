@@ -24,8 +24,8 @@ export default function Home() {
         />
         <ProjectCard
           src="employee-dir.png"
-          title="Example Project 2"
-          desc="Lorem ipsum dolornt ut labore s. Dolor magna eget est lorem ipsum."
+          title="Employee Directory"
+          desc="A React SPA that lets users view employee information. The name column can be sorted be alphabetical or reverse alphabetical order. The employee info is generated using randomuser.me."
         />
         <ProjectCard
           src="https://source.unsplash.com/random/400x200"
