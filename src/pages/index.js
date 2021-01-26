@@ -28,6 +28,8 @@ export default function Home() {
           src="employee-dir.png"
           title="Employee Directory"
           desc="A React SPA that lets users view employee information. The name column can be sorted be alphabetical or reverse alphabetical order. The employee info is generated using randomuser.me."
+          demo="https://nicks-employee-directory.netlify.app/"
+          repo="https://github.com/nicholasrokosz/employee-dir"
         />
         <ProjectCard
           src="fitness-tracker.png"
