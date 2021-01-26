@@ -26,8 +26,8 @@ export default function About() {
           <br></br>
           <span role="img" aria-label="gear">
             ⚙️
-          </span>
-          ⚙ My favorite tools/technologies are JavaScript, Typescript, React,
+          </span>{" "}
+          My favorite tools/technologies are JavaScript, Typescript, React,
           and Gatsby
         </p>
       </main>
