@@ -38,6 +38,8 @@ export default function Home() {
           src="https://source.unsplash.com/random/400x200"
           title="Example Project 4"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt. Non consectetur a erat nam at lectus. Dolor magna eget est lorem ipsum."
+          demo="https://nicks-employee-directory.netlify.app/"
+          repo="https://github.com/nicholasrokosz/employee-dir"
         />
         <ProjectCard
           src="https://source.unsplash.com/random/400x200"
