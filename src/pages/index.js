@@ -35,6 +35,8 @@ export default function Home() {
           src="fitness-tracker.png"
           title="Fitness Tracker"
           desc="A web app to store workout data and see weekly stats visualized. This project uses a MongoDB database and Chart.js for visualization."
+          demo="https://nameless-beyond-74522.herokuapp.com/"
+          repo="https://github.com/nicholasrokosz/workout-tracker"
         />
         <ProjectCard
           src="https://source.unsplash.com/random/400x200"
