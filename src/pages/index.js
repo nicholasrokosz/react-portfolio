@@ -39,11 +39,11 @@ export default function Home() {
           repo="https://github.com/nicholasrokosz/workout-tracker"
         />
         <ProjectCard
-          src="https://source.unsplash.com/random/400x200"
-          title="Example Project 4"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt. Non consectetur a erat nam at lectus. Dolor magna eget est lorem ipsum."
-          demo="https://nicks-employee-directory.netlify.app/"
-          repo="https://github.com/nicholasrokosz/employee-dir"
+          src="budget.png"
+          title="Budget Tracker PWA"
+          desc="This is a progressive web app that allows users to input transactions and see a chart of all past transactions. User data is stored using IndexedDB."
+          demo="https://frozen-cliffs-94404.herokuapp.com/"
+          repo="https://github.com/nicholasrokosz/budget-tracker-pwa"
         />
         <ProjectCard
           src="https://source.unsplash.com/random/400x200"
