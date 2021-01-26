@@ -21,6 +21,8 @@ export default function Home() {
           src="spotifizenator.png"
           title="Spotifizenator9000"
           desc="An easy-to-use web app that helps users find new music based on an artist that they already like. User authentication through the Spotify Web API allows the generated playlists to be saved to a Spotify account for later listening."
+          demo="https://spotifizenator9000.herokuapp.com/"
+          repo="https://github.com/nicholasrokosz/song-book"
         />
         <ProjectCard
           src="employee-dir.png"
