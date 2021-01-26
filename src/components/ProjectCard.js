@@ -1,7 +1,7 @@
 import React from "react"
 import "twin.macro"
 
-const ProjectCard = ({ src, title, desc, repo, demo }) => (
+const ProjectCard = ({ src, title, desc, demo, repo }) => (
   <div tw="mx-auto flex flex-col p-6 bg-white rounded-xl shadow-lg p-0">
     <img
       src={src}
