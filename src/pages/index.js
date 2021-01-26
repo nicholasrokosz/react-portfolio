@@ -46,9 +46,11 @@ export default function Home() {
           repo="https://github.com/nicholasrokosz/budget-tracker-pwa"
         />
         <ProjectCard
-          src="https://source.unsplash.com/random/400x200"
-          title="Example Project 5"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt. Non consectetur a erat nam at lectus. Dolor magna eget est lorem ipsum."
+          src="staff-cms.png"
+          title="Staff Managagment CLI"
+          desc="This is a Node.js command-line program that lets users create, read, and update information about employees in a mySQL database."
+          demo="https://github.com/nicholasrokosz/employee-tracker"
+          repo="https://github.com/nicholasrokosz/employee-tracker"
         />
         <ProjectCard
           src="https://source.unsplash.com/random/400x200"
