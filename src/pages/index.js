@@ -53,9 +53,11 @@ export default function Home() {
           repo="https://github.com/nicholasrokosz/employee-tracker"
         />
         <ProjectCard
-          src="https://source.unsplash.com/random/400x200"
-          title="Example Project 6"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt. Non consectetur a erat nam at lectus. Dolor magna eget est lorem ipsum."
+          src="weather.png"
+          title="Weather Dashboard"
+          desc="This web application uses the OpenWeather API to display current weather and a five day forecast for a city based on user input. The application also stores previous searches in local storage."
+          demo="https://nicholasrokosz.github.io/weather-dashboard/"
+          repo="https://github.com/nicholasrokosz/weather-dashboard"
         />
       </div>
     </Layout>
