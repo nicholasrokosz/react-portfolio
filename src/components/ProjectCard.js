@@ -11,10 +11,10 @@ const ProjectCard = ({ src, title, desc, demo, repo }) => (
     <div tw="mx-6 pb-6">
       <div tw="inline-flex w-full">
         <h4 tw="text-xl text-gray-900 mr-2">{title}</h4>
-        <a href={demo} tw="bg-none mr-2">
+        <a href={demo} tw="bg-none mr-2" target="_blank">
           <img tw="float-right" src="link.svg" alt="link" />
         </a>{" "}
-        <a href={repo} tw="bg-none">
+        <a href={repo} tw="bg-none" target="_blank">
           <img tw="float-right" src="archive.svg" alt="repo" />
         </a>
       </div>
